@@ -112,14 +112,14 @@ function HalamanPenemuSel({navigation}) {
 </View>
 
 <View style={{padding:10, bottom:10, left:10}}>
-<TouchableOpacity>
+<TouchableOpacity   onPress={()=>navigation.navigate('HalamanGlosarium')}>
 <Image style={{width:33, height:30}} source={require('../../assets/img/glosarium.png')} />
 <Text style={{color:colors.white, fontSize:10, fontFamily:'Alata-Regular', right:10, fontWeight:'bold', top:5}} >GLOSARIUM</Text>
 </TouchableOpacity>
 </View>
 
 <View style={{padding:10, bottom:10}}>
-<TouchableOpacity>
+<TouchableOpacity   onPress={()=>navigation.navigate('HalamanHome')}>
 <Image style={{width:33, height:30}} source={require('../../assets/img/home.png')} />
 <Text style={{color:colors.white, fontSize:10, fontFamily:'Alata-Regular',  fontWeight:'bold', top:5, textAlign:'center'}} >HOME</Text>
 </TouchableOpacity>
