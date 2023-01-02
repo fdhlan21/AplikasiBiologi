@@ -23,8 +23,8 @@ function HalamanPerbedaanSelHewan({navigation}) {
 
 <View style={{padding:10, top:20}}>
 
-<Text style={{fontFamily:'Alata-Regular', color:colors.secondary, fontSize:15, textAlign:'center', fontWeight:'bold'}}>Perbedaan Sel Hewan</Text>
-<Text style={{fontFamily:'Alata-Regular', color:colors.secondary, fontSize:15, textAlign:'center', fontWeight:'bold'}}>dan Sel Tumbuhan</Text>
+<Text style={{fontFamily:'Poppins-Regular', color:colors.secondary, fontSize:15, textAlign:'center', fontWeight:'bold'}}>Perbedaan Sel Hewan</Text>
+<Text style={{fontFamily:'Poppins-Regular', color:colors.secondary, fontSize:15, textAlign:'center', fontWeight:'bold'}}>dan Sel Tumbuhan</Text>
 </View>
 
 <View style={{padding:10, alignItems:'center', top:20}}>
@@ -34,10 +34,10 @@ function HalamanPerbedaanSelHewan({navigation}) {
 
 <View style={{padding:10, justifyContent:'space-around', flexDirection:'row' }}>
     <TouchableOpacity    style={{width:70, height:36, backgroundColor:colors.white , borderRadius:30,}}>
-        <Text style={{fontFamily:'Alata-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Menu</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Menu</Text>
     </TouchableOpacity>
       <TouchableOpacity  onPress={()=>navigation.navigate('HalamanBelajar')}   style={{width:70, height:36, backgroundColor:colors.secondary , borderRadius:30, borderWidth:1, borderColor:colors.tertiary, left:20, top:10}}>
-        <Text style={{fontFamily:'Alata-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Menu</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:12, textAlign:'center', color:colors.white, top:8}}>Menu</Text>
     </TouchableOpacity>
 </View>
 

@@ -18,7 +18,7 @@ function AntonieVan({navigation}) {
 
 <View style={{padding:10, }}>
     <TouchableOpacity  onPress={()=>navigation.navigate('HalamanPenemuSel')}  style={{width:70, height:36, backgroundColor:colors.tertiary , borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-        <Text style={{fontFamily:'Poppins-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Back</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:12, textAlign:'center', color:colors.white, top:8}}>Back</Text>
     </TouchableOpacity>
 </View>
 
@@ -29,22 +29,22 @@ function AntonieVan({navigation}) {
     <Image   style={{width:142, height:187,}} source={require('../../assets/img/antonie1.png')} />
 </View>
 
+<View style={{padding:10, top:0}}>
+    <Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', textAlign:'center', fontSize:15, letterSpacing:0.08, lineHeight:17, fontWeight:'bold'}}>Mikroskop sederhana buatan</Text>
+    <Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', textAlign:'center', fontSize:15, bottom:5, fontWeight:'bold'}}>Anthonie Van Leeuwenhoek</Text>
+</View>
+
 <View style={{padding:10}}>
-    <Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', textAlign:'center', fontSize:15,}}>Mikroskop sederhana buatan</Text>
-    <Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', textAlign:'center', fontSize:15, bottom:5}}>Anthonie Van Leeuwenhoek</Text>
-</View>
-
-<View style={{padding:5}}>
-<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center'}}>Anthonie Van Leeuwenhoek (1674) ilmuwan berkebangsaan Belanda merupakan orang yang pertama kali mengamati dan menggambarkan makhluk hidup renik dengan mikroskop sederhana sehingga dianggap sebagai mikrobiolog pertama.</Text>
+<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center', letterSpacing:0.08,  lineHeight:17}}>Anthonie Van Leeuwenhoek (1674) ilmuwan berkebangsaan Belanda merupakan orang yang pertama kali mengamati dan menggambarkan makhluk hidup renik dengan mikroskop sederhana sehingga dianggap sebagai mikrobiolog pertama.</Text>
 </View>
 
 
-<View style={{padding:5, top:10}}>
-<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center'}}>Leeuwenhoek terkenal atas pengembangan mikroskop dengan membuat lensa yang lebih baik sehingga dapat memvisualisasikan sel hidup dan berhasil melihat benda aneh dalam setetes air rendaman jerami.</Text>
+<View style={{padding:10, top:10}}>
+<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center',  letterSpacing:0.08,  lineHeight:17}}>Leeuwenhoek terkenal atas pengembangan mikroskop dengan membuat lensa yang lebih baik sehingga dapat memvisualisasikan sel hidup dan berhasil melihat benda aneh dalam setetes air rendaman jerami.</Text>
 </View>
 
 
-<View style={{padding:10, paddingVertical:50}} >
+<View style={{padding:10, paddingVertical:20}} >
 
 </View>
 

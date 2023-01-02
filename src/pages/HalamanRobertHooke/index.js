@@ -31,9 +31,9 @@ function RobertHooke({navigation}) {
 
 <View style={{padding:10, top
 :20}}>
-    <Text style={{color:colors.secondary, fontFamily:'Poppips-Regular', textAlign:'center', fontSize:15, fontWeight:'bold', fontStyle:'italic', lineHeight:17, letterSpacing:0.08}}>Mikroskop yang digunakan</Text>
-    <Text style={{color:colors.secondary, fontFamily:'Poppips-Regular', textAlign:'center', fontSize:15,  fontWeight:'bold', fontStyle:'italic' , lineHeight:17, letterSpacing:0.08}}>oleh Robert Hooke &</Text>
-        <Text style={{color:colors.secondary, fontFamily:'Poppips-Regular', textAlign:'center', fontSize:15, fontWeight:'bold',  fontStyle:'italic', lineHeight:17, letterSpacing:0.08}}>hasil pengamatan nya</Text>
+    <Text style={{color:colors.secondary, fontFamily:'Poppips-Regular', textAlign:'center', fontSize:15, fontWeight:'bold', lineHeight:17, letterSpacing:0.08}}>Mikroskop yang digunakan</Text>
+    <Text style={{color:colors.secondary, fontFamily:'Poppips-Regular', textAlign:'center', fontSize:15,  fontWeight:'bold',  lineHeight:17, letterSpacing:0.08}}>oleh Robert Hooke &</Text>
+        <Text style={{color:colors.secondary, fontFamily:'Poppips-Regular', textAlign:'center', fontSize:15, fontWeight:'bold',lineHeight:17, letterSpacing:0.08}}>hasil pengamatan nya</Text>
 </View>
 
 <View style={{padding:10, top

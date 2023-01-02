@@ -155,7 +155,7 @@ const Stack = createNativeStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='HalamanStart'>
+      <Stack.Navigator initialRouteName='HalamanHome'>
         <Stack.Screen name="HalamanStart" component={HalamanStart} options={{headerShown:false}} />
         <Stack.Screen name="HalamanHome" component={HalamanHome} options={{headerShown:false}} />
     <Stack.Screen name="HalamanBelajar" component={HalamanMulaiBelajar} options={{headerShown:false}} />

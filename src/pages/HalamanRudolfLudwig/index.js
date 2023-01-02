@@ -18,7 +18,7 @@ function RudolfLudwig({navigation}) {
 
 <View style={{padding:10, }}>
     <TouchableOpacity  onPress={()=>navigation.navigate('HalamanPenemuSel')}  style={{width:70, height:36, backgroundColor:colors.tertiary , borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-        <Text style={{fontFamily:'Alata-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Back</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Back</Text>
     </TouchableOpacity>
 </View>
 
@@ -30,19 +30,19 @@ function RudolfLudwig({navigation}) {
 </View>
 
 <View style={{padding:10}}>
-    <Text style={{color:colors.secondary, fontFamily:'Alata-Regular', textAlign:'center', fontSize:20, fontWeight:'bold'}}>Rudolf Ludwig</Text>
-        <Text style={{color:colors.secondary, fontFamily:'Alata-Regular', textAlign:'center', fontSize:20, fontWeight:'bold'}}>Karl Virchow </Text>
+    <Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', textAlign:'center', fontSize:20, fontWeight:'bold' , lineHeight:22, letterSpacing:0.8}}>Rudolf Ludwig</Text>
+        <Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', textAlign:'center', fontSize:20, fontWeight:'bold', lineHeight:22, letterSpacing:0.8}}>Karl Virchow </Text>
 </View>
 
-<View style={{padding:5}}>
-<Text style={{color:colors.secondary, fontFamily:'Alata-Regular', fontSize:15, textAlign:'center'}}>Rudolf Ludwig Karl Virchow seorang dokter Jerman, yang menyatakan sebuah slogan <Text style={{fontWeight:'bold', fontStyle:'italic'}}>Omnis cellula e cellula</Text> artinya semua sel hanya berasal dari sel sebelumnya. 
+<View style={{padding:10}}>
+<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center'  , lineHeight:17, letterSpacing:0.08}}>Rudolf Ludwig Karl Virchow seorang dokter Jerman, yang menyatakan sebuah slogan <Text style={{fontWeight:'bold', fontStyle:'italic'}}>Omnis cellula e cellula</Text> artinya semua sel hanya berasal dari sel sebelumnya. 
 
  
 </Text>
 </View>
 
-<View style={{padding:5}}>
-<Text style={{color:colors.secondary, fontFamily:'Alata-Regular', fontSize:15, textAlign:'center'}}>
+<View style={{padding:10}}>
+<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center' , lineHeight:17, letterSpacing:0.08}}>
 Pernyataannya ini sekaligus <Text style={{fontWeight:'bold'}}> menentang</Text> pendapat dari penjelasan Schwann yang ketiga bahwa sel muncul begitu saja seperti kristal  (<Text style={{fontWeight:'bold', fontStyle:'italic'}}>generatio spontanea</Text>).
 </Text>
 </View>

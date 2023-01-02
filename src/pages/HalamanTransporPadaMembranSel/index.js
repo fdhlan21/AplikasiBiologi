@@ -17,7 +17,7 @@ function HalamanTransporPadaMembranSel({navigation}) {
 
 <View style={{padding:10, }}>
     <TouchableOpacity  onPress={()=>navigation.navigate('HalamanBelajar')}  style={{width:70, height:36, backgroundColor:colors.tertiary , borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-        <Text style={{fontFamily:'Alata-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Back</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:12, textAlign:'center', color:colors.white, top:8}}>Back</Text>
     </TouchableOpacity>
 </View>
 
@@ -27,20 +27,20 @@ function HalamanTransporPadaMembranSel({navigation}) {
 
     <View style={{padding:10, alignItems:'center'}}> 
         <TouchableOpacity    onPress={()=>navigation.navigate('HalamanTransporSel')}   style={{width:'100%', height:102, backgroundColor:colors.tertiary, borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-<Text style={{textAlign:'center' ,fontFamily:'Alata-Regular', color:colors.white, fontSize:15, top:20}}>Transpor pada</Text>
-<Text style={{textAlign:'center' ,fontFamily:'Alata-Regular', color:colors.white, fontSize:15, top:30}}>membran sel</Text>
+<Text style={{textAlign:'center' ,fontFamily:'Poppins-Regular', color:colors.white, fontSize:15, top:20}}>Transpor pada</Text>
+<Text style={{textAlign:'center' ,fontFamily:'Poppins-Regular', color:colors.white, fontSize:15, top:30}}>membran sel</Text>
         </TouchableOpacity>
     </View>
 
   <View style={{padding:10, alignItems:'center'}}> 
         <TouchableOpacity   onPress={()=>navigation.navigate('KelompokTransporAktif')} style={{width:'100%', height:102, backgroundColor:colors.tertiary, borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-<Text style={{textAlign:'center' ,fontFamily:'Alata-Regular', color:colors.white, fontSize:15, top:40}}>Transpor Aktif</Text>
+<Text style={{textAlign:'center' ,fontFamily:'Poppins-Regular', color:colors.white, fontSize:15, top:40}}>Transpor Aktif</Text>
         </TouchableOpacity>
     </View>
 
   <View style={{padding:10, alignItems:'center'}}> 
         <TouchableOpacity onPress={()=>navigation.navigate('KelompokTransporPasif')}  style={{width:'100%', height:102, backgroundColor:colors.tertiary, borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-<Text style={{textAlign:'center' ,fontFamily:'Alata-Regular', color:colors.white, fontSize:15, top:40}}>Transpor Pasif</Text>
+<Text style={{textAlign:'center' ,fontFamily:'Poppins-Regular', color:colors.white, fontSize:15, top:40}}>Transpor Pasif</Text>
         </TouchableOpacity>
     </View>
 

@@ -23,10 +23,7 @@ function KelompokTransporSelTiga({navigation}) {
 
 
 
-<View style={{padding:10, alignItems:'center', top:20 }}>
-   <Image   style={{width:281, height:214,   }} source={require('../../assets/img/tranporsel.png')} />
 
-</View>
 
 
 <View style={{padding:10, alignItems:'center' , top:30}}>

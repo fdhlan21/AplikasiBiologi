@@ -5,6 +5,7 @@ import { View, Text, Image, TouchableOpacity, ScrollView } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import colors from '../../utils/colors/colors';
+import TextTicker from 'react-native-text-ticker'
 
 
 
@@ -15,20 +16,39 @@ function HalamanHome({navigation}) {
 
 <ScrollView>
 
-<View style={{padding:20,  }}>
+
+<View style={{padding:10, backgroundColor:colors.secondary, height:250, borderBottomLeftRadius:30, borderBottomRightRadius:30,  bottom:10}} >
+
+
+<View style={{padding:10, top:20 }}>
     <Text style={{color:colors.tertiary, fontSize:20, fontFamily:'Poppins-Regular', fontStyle:'italic'}}>Selamat Datang..</Text>
 </View>
 
-<View style={{padding:10, }}>
-    <Text style={{color:colors.tertiary, fontSize:20, fontFamily:'Poppins-Regular', textAlign:'center',  fontWeight:'bold'}}>MEDIA PEMBELAJARAN</Text>
-        <Text style={{color:colors.tertiary, fontSize:20, fontFamily:'Poppins-Regular', textAlign:'center', fontWeight:'bold' }}>BIOLOGI SEL SMA/MA</Text>        
+<View style={{padding:10, top:20}}>
+        <Text style={{color:colors.tertiary, fontSize:20, fontFamily:'Poppins-Regular',   fontWeight:'bold'}}>MEDIA PEMBELAJARAN</Text>
+        <Text style={{color:colors.tertiary, fontSize:20, fontFamily:'Poppins-Regular',  fontWeight:'bold' }}>BIOLOGI SEL SMA/MA</Text>        
 </View>
 
-<View style={{padding:20}}>
+<View  style={{padding:10, flexDirection:'row', justifyContent:'flex-end', bottom:60}} >
+<Image  style={{width:60, height:60}} source={require('../../assets/img/bilogilogo.png')} />
+</View>
+</View>
+
+<View style={{padding:10, alignItems:'center', bottom:100,}}> 
+<Image  style={{width:317, height:171,  }} source={require('../../assets/img/homebiologi.png')} />
+</View>
+
+
+
+<View style={{padding:10, }}>
+
+</View>
+
+<View style={{padding:20, bottom:100 }}>
     <Text style={{fontFamily:'Poppins-Regular', fontSize:20, letterSpacing:0.08, }}>Kompetensi Dasar</Text>
 </View>
 
-<View style={{padding:10,  alignItems:'center', }}>
+<View style={{padding:10,  alignItems:'center', bottom:100 }}>
 <View style={{width:287, height:166, backgroundColor:'#cccccc', borderRadius:20, borderWidth:1, borderColor:colors.secondary }} >
 <Text style={{fontSize:14, textAlign:'center', color:colors.white, fontFamily:'Poppins-Regular', top:40, fontWeight:'bold', lineHeight:21, letterSpacing:0.08}}>3.1 Menjelaskan komponen kimiawi penyusun sel, struktur, fungsi, dan proses yang berlangsung dalam sel sebagai unit terkecil kehidupan
 </Text>
@@ -37,21 +57,21 @@ function HalamanHome({navigation}) {
 
 
 
-<View style={{padding:20}}>
+<View style={{padding:20, bottom:100}}>
     <Text style={{fontFamily:'Poppins-Regular', fontSize:20, letterSpacing:0.8}}>Tujuan </Text>
         <Text style={{fontFamily:'Poppins-Regular', fontSize:20,  letterSpacing:0.8 }}>Pembelajaran</Text>
 </View>
 
-<View style={{padding:10,  alignItems:'center', }}>
-<View style={{width:287, height:327, backgroundColor:colors.tertiary, borderRadius:20, borderWidth:1, borderColor:colors.secondary }} >
-<Text style={{fontSize:13, textAlign:'center', color:colors.white, fontFamily:'Poppins-Regular', top:80,  fontWeight:'bold', lineHeight:21, letterSpacing:0.08}}>Mendeskripsikan komponen penyusun sel, struktur, fungsi, dan proses yang berlangsung dalam sel sebagai unit terkecil kehidupan
+<View style={{padding:10,  alignItems:'center', bottom:100}}>
+<View style={{width:287, height:210, backgroundColor:colors.tertiary, borderRadius:20, borderWidth:1, borderColor:colors.secondary }} >
+<Text style={{fontSize:13, textAlign:'center', color:colors.white, fontFamily:'Poppins-Regular', top:20,  fontWeight:'bold', lineHeight:21, letterSpacing:0.08, }}>Mendeskripsikan komponen penyusun sel, struktur, fungsi, dan proses yang berlangsung dalam sel sebagai unit terkecil kehidupan
 </Text>
 
 <View style={{padding:10}} >
 
 </View>
 
-<Text style={{fontSize:13, textAlign:'center', color:colors.white, fontFamily:'Poppins-Regular', top:80, fontWeight:'bold',  lineHeight:21, letterSpacing:0.08 }}>
+<Text style={{fontSize:13, textAlign:'center', color:colors.white, fontFamily:'Poppins-Regular', top:20, fontWeight:'bold',  lineHeight:21, letterSpacing:0.08 }}>
 Mengidentifikasi organel sel tumbuhan dan hewan.
 
 Membandingkan mekanisme transpor pada membran (difusi, osmosis, pompa ion, endositosis, eksositosis).

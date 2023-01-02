@@ -18,28 +18,28 @@ function HalamanTentang({navigation}) {
 
 <View style={{padding:10,  }}>
     <TouchableOpacity  onPress={()=>navigation.navigate('HalamanHome')} style={{width:70, height:36, backgroundColor:colors.tertiary , borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-        <Text style={{fontFamily:'Alata-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Back</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:12, textAlign:'center', color:colors.white, top:8}}>Back</Text>
     </TouchableOpacity>
 </View>
 
 
 <View style={{top:100}}>
 
-<View>
-    <Text style={{fontFamily:'Alata-Regular', fontSize:35, fontWeight:'bold', textAlign:'center'}}>TENTANG</Text>
+<View style={{}}>
+    <Text style={{fontFamily:'Poppins-Regular', fontSize:35, fontWeight:'bold', textAlign:'center'}}>TENTANG</Text>
 </View>
 
 
-<View style={{padding:10, }}>
+<View style={{padding:10,  }}>
     <TouchableOpacity    onPress={()=>navigation.navigate('HalamanKreator')}  style={{width:'100%', height:90, backgroundColor:colors.tertiary , borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-        <Text style={{fontFamily:'Alata-Regular', fontSize:32, textAlign:'center', color:colors.white, top:10}}>KREATOR</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:32, textAlign:'center', color:colors.white, top:20}}>KREATOR</Text>
     </TouchableOpacity>
 </View>
 
 
 <View style={{padding:10, }}>
     <TouchableOpacity  onPress={()=>navigation.navigate('HalamanPustaka')} style={{width:'100%', height:90, backgroundColor:colors.tertiary , borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-        <Text style={{fontFamily:'Alata-Regular', fontSize:32, textAlign:'center', color:colors.white, top:10}}>DAFTAR PUSTAKA</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:32, textAlign:'center', color:colors.white, top:20}}>DAFTAR PUSTAKA</Text>
     </TouchableOpacity>
 </View>
 </View>
@@ -59,29 +59,29 @@ function HalamanTentang({navigation}) {
 <View style={{padding:10, bottom:10, left:10}}>
 <TouchableOpacity    onPress={()=>navigation.navigate('HalamanBelajar')}>
 <Image style={{width:35, height:28}} source={require('../../assets/img/meulaibelajar.png')} />
-<Text style={{color:colors.white, fontSize:10, fontFamily:'Alata-Regular', left:5, fontWeight:'bold'}} >Mulai</Text>
-<Text  style={{color:colors.white, fontSize:10, fontFamily:'Alata-Regular', left:5, fontWeight:'bold'}}>Belajar</Text>
+<Text style={{color:colors.white, fontSize:10, fontFamily:'Poppins-Regular', left:5, fontWeight:'bold'}} >Mulai</Text>
+<Text  style={{color:colors.white, fontSize:10, fontFamily:'Poppins-Regular', left:5, fontWeight:'bold'}}>Belajar</Text>
 </TouchableOpacity>
 </View>
 
 <View style={{padding:10, bottom:10, left:10}}>
 <TouchableOpacity onPress={()=>navigation.navigate('HalamanGlosarium')}>
 <Image style={{width:33, height:30}} source={require('../../assets/img/glosarium.png')} />
-<Text style={{color:colors.white, fontSize:10, fontFamily:'Alata-Regular', right:10, fontWeight:'bold', top:5}} >GLOSARIUM</Text>
+<Text style={{color:colors.white, fontSize:10, fontFamily:'Poppins-Regular', right:10, fontWeight:'bold', top:5}} >GLOSARIUM</Text>
 </TouchableOpacity>
 </View>
 
 <View style={{padding:10, bottom:10}}>
 <TouchableOpacity onPress={()=>navigation.navigate('HalamanHome')}>
 <Image style={{width:33, height:30}} source={require('../../assets/img/home.png')} />
-<Text style={{color:colors.white, fontSize:10, fontFamily:'Alata-Regular',  fontWeight:'bold', top:5, textAlign:'center'}} >HOME</Text>
+<Text style={{color:colors.white, fontSize:10, fontFamily:'Poppins-Regular',  fontWeight:'bold', top:5, textAlign:'center'}} >HOME</Text>
 </TouchableOpacity>
 </View>
 
 <View style={{padding:10, bottom:10}}>
 <TouchableOpacity>
 <Image style={{width:23, height:32}} source={require('../../assets/img/tentang.png')} />
-<Text style={{color:colors.white, fontSize:10, fontFamily:'Alata-Regular',  fontWeight:'bold', top:5, right:10}} >TENTANG</Text>
+<Text style={{color:colors.white, fontSize:10, fontFamily:'Poppins-Regular',  fontWeight:'bold', top:5, right:10}} >TENTANG</Text>
 </TouchableOpacity>
 </View>
 

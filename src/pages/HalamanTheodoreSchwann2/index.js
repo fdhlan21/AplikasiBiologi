@@ -18,7 +18,7 @@ function TheodoreSchwann2({navigation}) {
 
 <View style={{padding:10, }}>
     <TouchableOpacity  onPress={()=>navigation.navigate('TheodoreSchwann')}  style={{width:70, height:36, backgroundColor:colors.tertiary , borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-        <Text style={{fontFamily:'Alata-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Back</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:12, textAlign:'center', color:colors.white, top:8}}>Back</Text>
     </TouchableOpacity>
 </View>
 
@@ -30,24 +30,24 @@ function TheodoreSchwann2({navigation}) {
 </View>
 
 <View style={{padding:10}}>
-    <Text style={{color:colors.secondary, fontFamily:'Alata-Regular', textAlign:'center', fontSize:20, fontWeight:'bold'}}>Theodore Schwann</Text>
+    <Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', textAlign:'center', fontSize:20, fontWeight:'bold', lineHeight:22, letterSpacing:0.08}}>Theodore Schwann</Text>
 </View>
 
-<View style={{padding:5}}>
-<Text style={{color:colors.secondary, fontFamily:'Alata-Regular', fontSize:15, textAlign:'center'}}>1) Sel merupakan kesatuan struktural, fisiologis, dan organisasi dari makhluk hidup,
+<View style={{padding:10}}>
+<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center', lineHeight:17, letterSpacing:0.08}}>1) Sel merupakan kesatuan struktural, fisiologis, dan organisasi dari makhluk hidup,
 
 </Text>
 </View>
 
 <View style={{padding:5}}>
-<Text style={{color:colors.secondary, fontFamily:'Alata-Regular', fontSize:15, textAlign:'center'}}>
+<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center', lineHeight:17, letterSpacing:0.08}}>
 2) Sel  memiliki eksistensi  ganda  yaitu  sebagai  entitas  yang  berbeda  dan sebagai bagian yang membangun organisme, 
 
 </Text>
 </View>
 
 <View style={{padding:5}}>
-<Text style={{color:colors.secondary, fontFamily:'Alata-Regular', fontSize:15, textAlign:'center'}}>
+<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center', lineHeight:17, letterSpacing:0.08}}>
 3) Sel terbentuk  secara  bebas, mirip  dengan  pembentukan Kristal (<Text style={{fontWeight:'bold', fontStyle:'italic'}}>spontaneous generation</Text>).</Text>
 </View>
 

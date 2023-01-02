@@ -18,7 +18,7 @@ function JohannesPurkinje({navigation}) {
 
 <View style={{padding:10, }}>
     <TouchableOpacity  onPress={()=>navigation.navigate('HalamanPenemuSel')}  style={{width:70, height:36, backgroundColor:colors.tertiary , borderRadius:30, borderWidth:1, borderColor:colors.secondary}}>
-        <Text style={{fontFamily:'Alata-Regular', fontSize:12, textAlign:'center', color:colors.white, top:5}}>Back</Text>
+        <Text style={{fontFamily:'Poppins-Regular', fontSize:12, textAlign:'center', color:colors.white, top:8}}>Back</Text>
     </TouchableOpacity>
 </View>
 
@@ -30,16 +30,16 @@ function JohannesPurkinje({navigation}) {
 </View>
 
 <View style={{padding:10}}>
-    <Text style={{color:colors.secondary, fontFamily:'Alata-Regular', textAlign:'center', fontSize:20, fontWeight:'bold'}}>Johannes Purkinje</Text>
+    <Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', textAlign:'center', fontSize:20, fontWeight:'bold', lineHeight:22, letterSpacing:0.8}}>Johannes Purkinje</Text>
 </View>
 
-<View style={{padding:5}}>
-<Text style={{color:colors.secondary, fontFamily:'Alata-Regular', fontSize:15, textAlign:'center'}}>Pada tahun 1935, setelah mengamati struktur sel, Johanes Purkinje dan Felix Durjadin melihat ada cairan dalam sel, kemudain cairan itu diberi nama protoplasma. 
+<View style={{padding:10}}>
+<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center', lineHeight:17, letterSpacing:0.8}}>Pada tahun 1935, setelah mengamati struktur sel, Johanes Purkinje dan Felix Durjadin melihat ada cairan dalam sel, kemudain cairan itu diberi nama <Text style={{fontWeight:'bold'}}> protoplasma. </Text>
 </Text>
 </View>
 
-<View style={{padding:5}}>
-<Text style={{color:colors.secondary, fontFamily:'Alata-Regular', fontSize:15, textAlign:'center'}}>
+<View style={{padding:10}}>
+<Text style={{color:colors.secondary, fontFamily:'Poppins-Regular', fontSize:15, textAlign:'center', lineHeight:17, letterSpacing:0.8}}>
 Istilah protoplasma purkinje tidak memberi pengertian kimiawi dan fisik yang jelas, tetapi dapat dipakai untuk menyebut seluruh zat yang terorganisasi dalam sel.
 </Text>
 </View>

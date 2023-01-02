@@ -25,7 +25,7 @@ function KelompokTransporSel({navigation}) {
 
 
 <View style={{padding:10, alignItems:'center', top:20 }}>
-   <Image   style={{width:281, height:214,   }} source={require('../../assets/img/tranporsel.png')} />
+   <Image   style={{width:321, height:218,   }} source={require('../../assets/img/tranporsel.png')} />
 
 </View>
 
